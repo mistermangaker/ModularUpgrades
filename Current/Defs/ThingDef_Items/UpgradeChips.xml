@@ -94,6 +94,9 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
   </ThingDef>
 
  <ThingDef ParentName="MMM_Craftable_UpgradeChip">
@@ -115,6 +118,7 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+
   </ThingDef>
 
 
@@ -140,6 +144,7 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+
   </ThingDef>
 
   <ThingDef ParentName="MMM_Craftable_UpgradeChip">
@@ -182,6 +187,9 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
   </ThingDef> 
 
 
@@ -253,6 +261,9 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+    <statBases>
+      <MarketValue>900</MarketValue>
+    </statBases>
   </ThingDef> 
 
   <ThingDef ParentName="MMM_Craftable_UpgradeChip">
@@ -274,6 +285,9 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+    </statBases>
   </ThingDef> 
 
   <ThingDef ParentName="MMM_Craftable_UpgradeChip">
@@ -295,6 +309,9 @@
         <maxSeverity>4</maxSeverity>
       </li>
     </comps>
+       <statBases>
+      <MarketValue>1000</MarketValue>
+    </statBases>
   </ThingDef> 
 
 </Defs>
