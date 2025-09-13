@@ -61,7 +61,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Beauty>-4</Beauty>
       <Mass>1</Mass>
-      <MarketValue>500</MarketValue>
+      <MarketValue>450</MarketValue>
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>
    <graphicData>
@@ -188,7 +188,7 @@
       </li>
     </comps>
     <statBases>
-      <MarketValue>750</MarketValue>
+      <MarketValue>600</MarketValue>
     </statBases>
   </ThingDef> 
 
@@ -262,7 +262,7 @@
       </li>
     </comps>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>600</MarketValue>
     </statBases>
   </ThingDef> 
 
@@ -286,7 +286,7 @@
       </li>
     </comps>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>750</MarketValue>
     </statBases>
   </ThingDef> 
 
@@ -310,7 +310,7 @@
       </li>
     </comps>
        <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>750</MarketValue>
     </statBases>
   </ThingDef> 
 
