@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   <HediffDef Name="MMM_Hediff_UpgradeImplantBase" Abstract="True">
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <hediffClass>Hediff_Level</hediffClass>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <initialSeverity>1</initialSeverity> <!-- Severity is bound to level of implant -->
+    <minSeverity>0</minSeverity>
+    <maxSeverity>4</maxSeverity>
+    <keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+    <levelIsQuantity>true</levelIsQuantity>
+    <duplicationAllowed>false</duplicationAllowed>
+</HediffDef>
+
+
+ <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_HungerRate</defName>
+    <label>Hunger suppliment implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <hungerRateFactorOffset>-0.1</hungerRateFactorOffset>
+        
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+       <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+      </li>
+            <li>
+        <minSeverity>3</minSeverity>
+        <hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+       <hungerRateFactorOffset>-0.4</hungerRateFactorOffset>
+      </li>
+     
+    </stages>
+  </HediffDef>
+
+<HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_MoveSpeed</defName>
+    <label>MoveSpeed implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statOffsets>
+           <MoveSpeed>1</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+           <MoveSpeed>2</MoveSpeed>
+        </statOffsets>
+      </li>
+            <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+          <MoveSpeed>3</MoveSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statOffsets>
+         <MoveSpeed>4</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+<HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_WorkSpeed</defName>
+    <label>WorkSpeed implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+        <statOffsets>
+           <WorkSpeedGlobal>1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+           <WorkSpeedGlobal>2</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+            <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+          <WorkSpeedGlobal>3</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <statOffsets>
+         <WorkSpeedGlobal>4</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+
+  <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_RestFallRate</defName>
+    <label>Anti-eepy implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+       <statOffsets>
+         <RestFallRateFactor>-0.1</RestFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         <RestFallRateFactor>-0.2</RestFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+         <RestFallRateFactor>-0.4</RestFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+      <statOffsets>
+         <RestFallRateFactor>-0.6</RestFallRateFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_JoyFallRate</defName>
+    <label>Wage slave implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+       <statOffsets>
+         <JoyFallRateFactor>-0.1</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         <JoyFallRateFactor>-0.2</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <statOffsets>
+         <JoyFallRateFactor>-0.4</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+      <statOffsets>
+         <JoyFallRateFactor>-0.6</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+    <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_MoodBuff</defName>
+    <label>bliss implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+     
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+       
+      </li>
+            <li>
+        <minSeverity>3</minSeverity>
+        
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        
+      </li>
+    </stages>
+  </HediffDef>
+
+
+    <ThoughtDef>
+    <defName>MMM_BlissImplant_ThoughtDef</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MMM_Hediff_MoodBuff</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>servitor implant</label>
+        <description>this person is in a constant state of eurphoria from the servitor implant</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+        <li>
+        <label>servitor implant</label>
+        <description>this person is in a constant state of eurphoria from the servitor implant</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+        <li>
+        <label>servitor implant</label>
+        <description>this person is in a constant state of eurphoria from the servitor implant</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+        <li>
+        <label>servitor implant</label>
+        <description>this person is in a constant state of eurphoria from the servitor implant</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+
+<!--health-->
+
+ <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_HealingBoost</defName>
+    <label>Healing boost implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+      <statOffsets>
+        <InjuryHealingFactor>0.1</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+         <InjuryHealingFactor>0.2</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+            <li>
+        <minSeverity>3</minSeverity>
+        <painFactor>0.8</painFactor>
+         <statOffsets>
+         <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+         <InjuryHealingFactor>0.3</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+        <painFactor>0.4</painFactor>
+         <statOffsets>
+         <ImmunityGainSpeed>0.4</ImmunityGainSpeed>
+         <InjuryHealingFactor>0.4</InjuryHealingFactor>
+        </statOffsets>
+      </li>
+    </stages>
+       <comps>
+            <li Class="HediffCompProperties_HealPermanentWounds" />
+        </comps>
+  </HediffDef>
+
+
+
+<HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_Doktor</defName>
+    <label>Medical skills booster implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+      <statOffsets>
+        <MedicalTendQuality>0.1</MedicalTendQuality>
+        <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+         <MedicalTendQuality>0.2</MedicalTendQuality>
+         <MedicalTendSpeed>0.1</MedicalTendSpeed>
+         <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+
+         <statOffsets>
+         <MedicalTendSpeed>0.2</MedicalTendSpeed>
+         <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+         <MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
+         <MedicalTendQuality>0.3</MedicalTendQuality>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+
+         <statOffsets>
+         <MedicalTendSpeed>0.4</MedicalTendSpeed>
+         <MedicalOperationSpeed>0.4</MedicalOperationSpeed>
+         <MedicalSurgerySuccessChance>0.4</MedicalSurgerySuccessChance>
+         <MedicalTendQuality>0.4</MedicalTendQuality>
+        </statOffsets>
+      </li>
+    </stages>
+     
+  </HediffDef>
+
+
+
+<HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_MeleeCombatBooster</defName>
+    <label>Melee Combat skills booster implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+      <statOffsets>
+        <MeleeDamageFactor>0.1</MeleeDamageFactor>
+        <MeleeCooldownFactor>0.1</MeleeCooldownFactor>
+        
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         <MeleeDodgeChance>0.1</MeleeDodgeChance>
+         <MeleeCooldownFactor>0.2</MeleeCooldownFactor>
+         <MeleeHitChance>0.1</MeleeHitChance>
+         <MeleeDamageFactor>0.1</MeleeDamageFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+
+         <statOffsets>
+         <MeleeDodgeChance>0.2</MeleeDodgeChance>
+         <MeleeDamageFactor>0.2</MeleeDamageFactor>
+         <MeleeCooldownFactor>0.2</MeleeCooldownFactor>
+         <MeleeHitChance>0.3</MeleeHitChance>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+
+         <statOffsets>
+         <MeleeDodgeChance>0.4</MeleeDodgeChance>
+         <MeleeDamageFactor>0.4</MeleeDamageFactor>
+         <MeleeCooldownFactor>0.4</MeleeCooldownFactor>
+         <MeleeHitChance>0.4</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+     
+  </HediffDef>
+<HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+    <defName>MMM_Hediff_RangedCombatBooster</defName>
+    <label>Ranged Combat skills booster implant</label>
+    <description>placeholder</description>
+    <stages>
+      <li>
+        <minSeverity>1</minSeverity>
+      <statOffsets>
+        <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+        <RangedCooldownFactor>0.1</RangedCooldownFactor>
+        
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+         
+         <RangedCooldownFactor>0.2</RangedCooldownFactor>
+         <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+         
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+
+         <statOffsets>
+         <MeleeDodgeChance>0.1</MeleeDodgeChance>
+         <MeleeDamageFactor>0.1</MeleeDamageFactor>
+         <RangedCooldownFactor>0.2</RangedCooldownFactor>
+         <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+
+         
+          <ShootingAccuracyFactor_Touch>0.1</ShootingAccuracyFactor_Touch>
+          <ShootingAccuracyFactor_Short>0.1</ShootingAccuracyFactor_Short>
+          <ShootingAccuracyFactor_Medium>0.1</ShootingAccuracyFactor_Medium>
+          <ShootingAccuracyFactor_Long>0.1</ShootingAccuracyFactor_Long>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>4</minSeverity>
+
+         <statOffsets>
+         <MeleeDodgeChance>0.2</MeleeDodgeChance>
+         <MeleeDamageFactor>0.2</MeleeDamageFactor>
+         <RangedCooldownFactor>0.4</RangedCooldownFactor>
+         <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+
+         <ShootingAccuracyFactor_Touch>0.2</ShootingAccuracyFactor_Touch>
+          <ShootingAccuracyFactor_Short>0.2</ShootingAccuracyFactor_Short>
+          <ShootingAccuracyFactor_Medium>0.2</ShootingAccuracyFactor_Medium>
+          <ShootingAccuracyFactor_Long>0.2</ShootingAccuracyFactor_Long>
+        </statOffsets>
+      </li>
+    </stages>
+     
+  </HediffDef>
+
+<!-- 
+  
+    <HediffDef ParentName="MMM_Hediff_UpgradeImplantBase">
+      <defName>MMM_Hediff_NeuroStackImplant</defName>
+     
+      <label>Neuro Stack Implant</label>
+      <description>placeholder</description>
+      <isBad>false</isBad>
+      <duplicationAllowed>false</duplicationAllowed>
+      <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+      <stages>
+        <li>
+        <minSeverity>1</minSeverity>
+        <hungerRateFactorOffset>0.1</hungerRateFactorOffset>
+       
+      </li>
+      </stages>
+
+    </HediffDef>
+-->
+
+</Defs>
