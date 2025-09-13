@@ -73,6 +73,7 @@
 
 
 
+
 <!--base stats-->
  <ThingDef ParentName="MMM_Craftable_UpgradeChip">
     <defName>MMM_Implant_MoveSpeed</defName>
